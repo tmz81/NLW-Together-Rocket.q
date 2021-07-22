@@ -1,0 +1,46 @@
+.content {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 11.4rem 1fr;
+  grid-template-areas: 
+  'header header' 
+  'lef right';
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: right;
+
+  display: flex;
+  align-items: center;
+}
+
+main .container {
+  width: min(36.3rem 100%);
+}
+
+main h2 {
+  font-family: 'Poppins', sans-serif;
+  color: var(--black);
+  font-size: clamp(20px, 5vw, 2.8rem);
+  margin-bottom: 2.4rem;
+}
+
+input {
+  padding: 0 1.6rem;
+  border: .2rem solid var(--grey-blue);
+}
+
+input, button, .button{
+  width: 100%;
+  margin-bottom: 1.8rem;
+}
+
+#bg {
+  grid-area: left;
+
+  background: url('/assets/img/home-bg.svg') no-repeat top/content;
+}
