@@ -26,6 +26,7 @@ html {              /* ===== Variáveis ===== */
   --blue-hover: #5699FF;
   --red-hover: #EA4B65;
   --grey-hover: #8794A7;
+  --grey-medium: #EAECF2;
 
 
   /* ===== FontStyles =====  */
@@ -90,7 +91,7 @@ button:hover, .button:hover{
   filter: brightness(1.2);
 }
 
-button > img 
+button > img, 
 .button > img {
   margin-right: 1rem;
   width: 2rem;
@@ -102,6 +103,21 @@ button.outlined,
   color: var(--blue);
   border: .2rem solid var(--blue);
 }
+
+button.red,
+.button.red {
+  background: var(--red);
+  color: var(--white);
+}
+
+button.grey,
+.button.grey {
+  background: var(--grey-light);
+  color: var(--grey-dark);
+}
+
+
+/* ===== Header ===== */
 .content header{
   width: 80%;
   margin: 3.5rem auto;
