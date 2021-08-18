@@ -1,3 +1,13 @@
-# Roket.q
+# Rokect.q #
 
-In progress 🚧
+<img src="rocketq-exp.png">
+
+### 🛠 Technology's 
+
+- HTML
+- CSS
+- JavaScript
+- NodeJS
+- EJS
+- Express
+- SQLite
