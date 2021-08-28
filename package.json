@@ -4,7 +4,7 @@
   "description": "Project NLW Together",
   "main": "src/server.js",
   "scripts": {
-    "start": "node ./src/serve.js",
+    "start": "node src/serve.js",
     "init-db": "node src/db/init.js"
   },
   "repository": {
