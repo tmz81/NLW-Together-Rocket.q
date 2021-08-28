@@ -1,10 +1,10 @@
 {
   "name": "discover-nlw",
   "version": "1.0.0",
-  "description": "In progress 🚧",
+  "description": "Project NLW Together",
   "main": "src/server.js",
   "scripts": {
-    "start": "nodemon .",
+    "start": "serve.js",
     "init-db": "node src/db/init.js"
   },
   "repository": {
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/tmz81/Rocket.q-NLW-Together.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "tmz81",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tmz81/Rocket.q-NLW-Together/issues"
