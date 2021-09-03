@@ -17,13 +17,13 @@
 
 ## 💻 Tecnologias
 
-[x] HTML
-[x] CSS
-[x] JavaScript
-[x] NodeJS
-[x] EJS
-[x] Express
-[x] SQLite
+- HTML
+- CSS
+- JavaScript
+- NodeJS
+- EJS
+- Express
+- SQLite
 
 ## 📝 Project
 
