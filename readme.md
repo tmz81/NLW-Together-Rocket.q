@@ -17,7 +17,6 @@
 
 ## 💻 Tecnologias
 
-- HTML
 - CSS
 - JavaScript
 - NodeJS
